@@ -1,0 +1,104 @@
+body{
+   background-color: hsl(204, 43%, 93%);
+   width:1440px;
+   margin:0;
+}
+#container{
+    margin:150px auto;
+ border-radius: 5px;
+ background-color:white;
+ width : 640px;
+ height:440px;
+}
+#container-top{
+    padding: 20px;
+    width:640px;
+    height:150px;
+}
+#container-top h2{
+    color: hsl(179, 62%, 43%);
+    font-family: 'Karla', sans-serif;
+    font-weight:700px;
+}
+#container-top h3{
+    color:  hsl(71, 73%, 54%);
+    font-family: 'Karla', sans-serif;
+}
+.content{
+    color: hsl(220, 12%, 5%);
+    opacity:50%;
+    font-family: 'Karla', sans-serif;
+}
+#container-bottom{
+    height:250px;
+    width:640px;
+    display:flex;
+    flex-direction: row;
+    font-family: 'Karla', sans-serif;
+
+}
+.container-bottominfo1{
+    padding: 20px;
+    width:320px;
+    background-color:hsl(179, 62%, 43%);
+    border-radius:0px 0px 0px 5px;
+}
+.container-bottominfo1 h2, .container-bottominfo2 h2{
+    color:white;
+}
+.container-bottominfo1 span{
+    color: white;
+    font-size: 24px;
+}
+em{
+    opacity: 50%;
+}
+.tutorials{
+    color:white;
+    opacity:70%;
+}
+.tutorial{
+    color:white;
+    opacity:65%;
+}
+button{
+    width:280px;
+    height:41px;
+    color: hsl(204, 43%, 93%);
+    background-color: hsl(71, 73%, 54%);
+    line-height:41px;
+    border-radius:3px;
+    border:none;
+    font-weight:450;
+    font-family: 'Karla', sans-serif;
+}
+.container-bottominfo2{
+    padding: 20px;
+    width:320px;
+    background-color:hsl(179, 62%, 43%);
+    opacity:50%;
+    border-radius:0px 0px 5px 0px;
+}
+footer{
+   
+    text-align:center;
+    
+    color: white;
+}
+.marq{
+    background-color: #060;
+    opacity:50%;
+    height:35px;
+    align-items: center;
+    font-family: 'Karla', sans-serif;
+}
+.attribution { 
+    font-size: 16px;
+    text-align: center;
+}
+.attribution a { 
+    color: white;
+    text-decoration:none;
+    font-size: 16px;
+}
+    
